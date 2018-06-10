@@ -1,0 +1,660 @@
+/* --------------- OVERALL BODY --------------- */
+
+body {
+    color: #666666;
+    font-size: 16px;
+    margin: 0;
+    position: relative;
+}
+
+hr {
+    margin: 30px 0 30px 0;
+}
+
+
+/* --------------- H1 – H6 --------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 1px;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-family: 'Futura PT';
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 0.8em;
+}
+
+h6 {
+    font-size: 1.2em;
+    margin-bottom: 0px;
+}
+
+
+
+/* --------------- NAVIGATION --------------- */
+
+.mobile-btn {
+    font-size: 2.5em;
+    padding: 5px 0 0 10px;
+    display: none;
+}
+
+/* --------------- PROTOTYPE SECTION --------------- */
+
+#prototype {
+    height: 300px;
+    background-image: url(redesign_02.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#prototype h2 {
+    color: #fff;
+}
+
+/* --------------- INTERVIEWGUIDE SECTION --------------- */
+
+#interviewguide img {
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 80%;
+}
+
+#interviewguide li,
+ul {
+    list-style-type: square;
+}
+
+
+/* --------------- TERMER SECTION --------------- */
+
+#termer {
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+#termer li,
+ul {
+    list-style-type: square;
+}
+
+/* --------------- OM MIG / CV --------------- */
+
+#cv {
+    background-color: #fdf7f5;
+    padding: 0 0 0 70px;
+}
+
+#cv img {
+    width: 90%;
+    padding: 0;
+}
+
+
+/* ---------- STYLETILE SECTION ---------- */
+
+.colors {
+    display: flex;
+    flex-direction: column;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 600px;
+}
+
+/* --- KEA APP --- */
+
+.color-e84b45 {
+    background-color: #e84b45;
+}
+
+.color-253248 {
+    background-color: #253248;
+    margin-top: 10px;
+}
+
+.color-808285 {
+    background-color: #808285;
+    margin-top: 10px;
+}
+
+.color-58595b {
+    background-color: #58595b;
+    margin-top: 10px;
+}
+
+/* --- REDESIGN SITE --- */
+
+.color-1a1d28 {
+    background-color: #1a1d28;
+}
+
+.color-3b3c3b {
+    background-color: #3b3c3b;
+    margin-top: 15px;
+}
+
+.color-465d60 {
+    background-color: #465d60;
+    margin-top: 10px;
+}
+
+.color-b2938e {
+    background-color: #b2938e;
+    margin-top: 10px;
+}
+
+/* --- STILART SITE --- */
+
+.color-01345a {
+    background-color: #01345a;
+}
+
+.color-142728 {
+    background-color: #142728;
+    margin-top: 10px;
+}
+
+.color-ffe44e {
+    background-color: #ffe44e;
+    margin-top: 10px;
+}
+
+.color-f3f3f3 {
+    background-color: #f3f3f3;
+    margin-top: 10px;
+}
+
+/* --- JOE & THE JUICE --- */
+
+.color-f6bcd7 {
+    background-color: #f6bcd7;
+}
+
+.color-222222 {
+    background-color: #222222;
+    margin-top: 10px;
+}
+
+.color-474747 {
+    background-color: #474747;
+    margin-top: 10px;
+}
+
+.color-f8f1d0 {
+    background-color: #f8f1d0;
+    margin-top: 10px;
+}
+
+/* --- MANSE & MELVIN --- */
+
+.color-037642 {
+    background-color: #037642;
+}
+
+.color-008946 {
+    background-color: #008946;
+    margin-top: 10px;
+}
+
+.color-a58d5e {
+    background-color: #a58d5e;
+    margin-top: 10px;
+}
+
+.color-423627 {
+    background-color: #423627;
+    margin-top: 10px;
+}
+
+/* --- SEX & SAMFUND --- */
+
+.color-1a1d28 {
+    background-color: #1a1d28;
+}
+
+.color-7cc4da {
+    background-color: #7cc4da;
+    margin-top: 10px;
+}
+
+.color-ed861b {
+    background-color: #ed861b;
+    margin-top: 10px;
+}
+
+.color-6f4f3c {
+    background-color: #6f4f3c;
+    margin-top: 10px;
+}
+
+
+
+/* --------------- LISTS --------------- */
+
+ul {
+    list-style-type: none;
+    padding: 15px;
+}
+
+ul a {
+    list-style-type: none;
+    font-weight: 600;
+}
+
+ul li ul li a {
+    font-weight: 400;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* ----- AUDIO PLAY BAR ----- */
+
+audio {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+
+/* ----- ARROW DEVIDE ----- */
+
+.arrowdown {
+    text-align: center;
+}
+
+.arrowdown img {
+    width: 15%;
+}
+
+
+
+/* ----- HOME PAGE ----- */
+
+.home {
+    height: auto;
+    width: auto;
+    background-image: url(redesign_02.png);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+.home h2 {
+    padding: 0 0 0 20px;
+    margin: 10px 50px 20px 50px;
+}
+
+.home h4 {
+    text-transform: uppercase;
+    padding: 80px 0 20px 20px;
+    margin: 0 50px 0 50px;
+}
+
+.home p {
+    padding: 0px 20px 20px 20px;
+    margin: 0 50px 0 50px;
+}
+
+
+
+/* --------------- BUTTONS --------------- */
+
+.buttons {
+    text-align: center;
+    margin: 40px;
+}
+
+.descriptionButtons {
+    margin: 40px 0 40px 0;
+}
+
+.whitebutton {
+    font-size: 0.8em;
+    font-weight: 600;
+    border: solid #fff 1px;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    margin-right: 15px;
+}
+
+.whitebutton:hover {
+    font-size: 0.8em;
+}
+
+.blackbutton {
+    font-size: 0.8em;
+    font-weight: 600;
+    border: solid #666666 1px;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    margin-right: 15px;
+}
+
+.blackbutton:hover {
+    font-size: 0.8em;
+}
+
+/* --------------- FLEX --------------- */
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.container {
+    background-color: rgba(253, 247, 245, 0.65);
+    margin: 100px;
+    height: auto;
+}
+
+#styletile .column_text {
+    flex-basis: 200px;
+    flex-grow: 2;
+}
+
+#styletile .column_colors {
+    flex-basis: 150px;
+    flex-grow: 0;
+    padding: 90px 0 0 40px;
+}
+
+#styletile .sectionwrapper {
+    flex-direction: row-reverse
+}
+
+#process .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+#process .column {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#additionalstyletile .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+#additionalstyletile .column_text {
+    flex-basis: 200px;
+    flex-grow: 2;
+}
+
+#additionalstyletile .column_image {
+    flex-basis: 150px;
+    flex-grow: 0;
+    padding-right: 50px;
+}
+
+#sexsamfundstyletile img {
+    width: 80%;
+    padding: 30px 0 0 40px;
+}
+
+
+
+/* --------------- GRID --------------- */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navigation {
+    flex-basis: 250px;
+    flex-grow: 0;
+}
+
+nav {
+    position: fixed;
+    margin: 20px 0 0 20px;
+}
+
+.content {
+    flex-basis: 300px;
+    flex-grow: 2;
+    background-color: #fff;
+}
+
+.content > section {
+    padding: 80px;
+}
+
+/* --------------- TEXT --------------- */
+
+div,
+p,
+span,
+a {
+    font-family: 'Raleway';
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#prototype p,
+#diagrams p,
+#advert {
+    color: #fff;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.cursive {
+    font-style: italic;
+}
+
+.tools,
+.information {
+    font-family: 'Futura PT';
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.menu {
+    font-family: 'Futura PT';
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 500;
+}
+
+
+
+/* ---------- SECTIONS ---------- */
+
+#description,
+#interviewguide,
+#brugerresearch,
+#refleksion,
+#features,
+#analyse,
+#audiofiles,
+#targetgroup,
+#additionalstyletile,
+#test,
+#sexsamfundstyletile,
+#termerpink,
+#moodboardpink {
+    background-color: #fdf7f5;
+    padding-top: 50px;
+}
+
+#refleksionwhite,
+#logline,
+#process,
+#styletile,
+#scenografi,
+#assetlist {
+    background-color: #fff;
+    padding-top: 50px;
+}
+
+
+#diagrams {
+    height: 140px;
+    background-image: url(redesign_02.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#advert {
+    height: 300px;
+    background-image: url(redesign_02.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* --------------- OVERALL LINKS --------------- */
+
+a {
+    text-decoration: none;
+    color: #666666;
+}
+
+nav a:hover {
+    font-size: 1.1em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #666666;
+}
+
+#diagrams a,
+#prototype a,
+#diagrams a:visited,
+#prototype a:visited,
+#advert a,
+#advert a:visited {
+    color: #fff;
+}
+
+/* --------------- OVERALL IMAGES --------------- */
+
+#redesign img {
+    width: 80%;
+    padding-left: 50px;
+    padding-top: 60px;
+    height: auto;
+}
+
+#description img {
+    width: 80%;
+    padding-left: 70px;
+    padding-top: 60px;
+    height: auto;
+}
+
+#process img {
+    width: 80%;
+    padding-top: 70px;
+    height: auto;
+}
+
+#features img {
+    width: 90%;
+    height: auto;
+}
+
+#features .mockup {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 50px 20px 20px 20px;
+}
+
+#moodboard img,
+#moodboardpink img {
+    width: 100%;
+}
+
+#scenografi img,
+#styletile img {
+    width: 80%;
+    margin-top: 30px;
+}
+
+
+
+
+/* DEKSTOP */
+
+@media (min-width: 751px) {
+    nav {
+        display: block;
+    }
+    .navigation {
+        flex-basis: 250px;
+        flex-grow: 0;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+    nav {
+        position: relative;
+        display: none;
+    }
+
+    .mobile-btn {
+        display: inline-block;
+    }
+
+    .navigation {
+        flex-basis: 250px;
+    }
+
+    .content {
+        flex-basis: 300px;
+    }
+
+    .container {
+        margin: 0px;
+    }
+
+    .home {
+        height: auto;
+    }
+
+    #description .column img {
+        width: 100%;
+        padding: 20px 0 0 0;
+    }
+}
